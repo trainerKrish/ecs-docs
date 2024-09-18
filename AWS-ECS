@@ -6,4 +6,4 @@ There are three layers in Amazon ECS:
 Capacity - The infrastructure where your containers run
 Controller - Deploy and manage your applications that run on the containers
 
-The following diagram shows the Amazon ECS layers.
+The following diagram shows the Amazon ECS layers..
