@@ -4,6 +4,6 @@ Amazon Elastic Container Service (Amazon ECS) is a fully managed container orche
 Amazon ECS terminology and components
 There are three layers in Amazon ECS:
 Capacity - The infrastructure where your containers run
-Controller - Deploy and manage your applications that run on the containers
+Controller - Deploy and manage your applications that run on the containersnn
 
-The following diagram shows the Amazon ECS layers.
+The following diagram shows the Amazon ECS layers.nnnnn
