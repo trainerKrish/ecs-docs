@@ -16,3 +16,31 @@
 ### Example
 - git checkout main
 - git merge feature
+
+
+- git pull origin main
+- git push origin main
+
+# Docker commands
+- docker image ls
+
+
+image-pendrive
+container-run the actual os.
+
+create container
+ => image
+ => command. (python app.py)
+
+### Build Docker image
+* `docker build --tag <name-of-your-image> <Dockerfile-path>`
+
+### Image
+* `docker image ls` # list all the images
+
+### Container
+* `docker container ls` # list all the running containers
+* `docker container ls -a` # list all the available containers
+
+### Logs
+* `docker log <Container-id/Container-Name>` # show the logs from a container
