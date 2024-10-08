@@ -8,9 +8,9 @@ def hello_world():
     return "<p>Hello, World!</p>"
 
 
-@app.route("/new")
-def hello_world():
-    return "<p>Hello, Universe!</p>"
+@app.route("/test")
+def test():
+    return "<p>Hello, test!</p>"
 
 
 @app.route("/<name>")
