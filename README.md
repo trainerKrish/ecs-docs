@@ -32,12 +32,12 @@ container-run the actual os.
 * `docker build --tag <name-of-your-image> <Dockerfile-path>`
 
 ### Image
-* `docker image ls` # list all the images
+* `docker image ls` # list all the images [`docker images`]
 * `docker rmi <image-id-1> <image-id-2> ...` # delete one or more images
 
 ### Container
-* `docker container ls` # list all the running containers
-* `docker container ls -a` # list all the available containers
+* `docker container ls` # list all the running containers  [`docker ps`]
+* `docker container ls -a` # list all the available containers [`docker ps -a`]
 * `docker start <Container-id/Container-Name>` # start a stopped containers
 * `docker stop <Container-id/Container-Name>` # stop a runnining containers
 * `docker rm <Container-id-1/Container-Name-1> <Container-id-2/Container-Name-2> ...` # delete one or more containers
@@ -63,6 +63,12 @@ create container
 * `docker exec -it aa2b2be8dd26 bash`
 
 ### Volume
-
+* `docker volume ls` # list of available volumes
 ### Network
 
+
+
+# Pending
+- git conflicts
+- git diff
+- git tags
