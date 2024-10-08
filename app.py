@@ -8,6 +8,11 @@ def hello_world():
     return "<p>Hello, World!</p>"
 
 
+@app.route("/test")
+def test():
+    return "<p>Hello, test!</p>"
+
+
 @app.route("/<name>")
 def hello(name):
     return f"Hello, {name}!!!"
