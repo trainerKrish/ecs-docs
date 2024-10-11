@@ -58,6 +58,7 @@ create container
 * `docker run -d <image-name>` # Create a container with Detach mode. This will return container ID as an output.
 * `docker run -it <image-name>` # attach an interactive terminal
 * `docker run --name <name-of-your-container> <image-name>` # Create container with custom name
+* `docker run --env <environment-variable-1> --env <env-2>` # attach an interactive terminal
 
 ### Attach a different terminal to a running container
 * `docker exec -it aa2b2be8dd26 bash`
