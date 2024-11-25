@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  webapp:
+    build: .
+    networks:
+      - myweb-networks
+    ports:
+      - "5000:5000"
+    depends_on:
+      - database
+
+  database:
+    container_name: db-mysql
+    image: mysql
+    networks:
+      - myweb-networks
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: my-secret
+      MYSQL_DATABASE: mysql
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+volumes:
+  mysql_data:
+
+networks:
+  myweb-networks:

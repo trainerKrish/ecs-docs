@@ -1,1 +1,9 @@
 just a file
+just a line
+# main.py
+
+def greet():
+    print("Hello, world!")
+
+if __name__ == "__main__":
+    greet()
